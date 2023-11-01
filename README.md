@@ -17,18 +17,18 @@ composer require ghermans/krayin-msgraph-mail
 After installation, you can publish the package's configuration file and customize it to suit your needs.  
 Make sure to set the required environment variables in your Krayin application. Below are the required environment variables for this package:
 
-´´´
+```php
 MS_GRAPH_CLIENT_ID=your_client_id
 MS_GRAPH_CLIENT_SECRET=your_client_secret
 MS_GRAPH_TENANT_ID=your_tenant_id
-´´´
+```
 
 ## Usage
 To use this package, you can create an instance of the MsGraphMailClient class, which allows you to interact with the Microsoft Graph API to retrieve mail-related data.
 
 Here's a basic example of how to use the package in your Laravel application:
 
-´´´
+```php
 use Ghermans\MicrosoftGraphMail\MsGraphMailClient;
 
 // Create an instance of the MsGraphMailClient
@@ -43,4 +43,4 @@ if ($emails === null) {
     // Process and display the emails
     return view('emails.index', ['emails' => $emails]);
 }
-´´´
+```
