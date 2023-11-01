@@ -6,6 +6,10 @@
 
 This Kraying CRM package provides a example on how to use the Microsoft Graph API for accessing mail-related data.
 
+## Changelog
+
+For detailed information about changes in each version of this package, please refer to the [Changelog](CHANGELOG.md).
+
 ## Installation
 
 You can install this package via Composer:
