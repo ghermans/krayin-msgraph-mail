@@ -1,0 +1,24 @@
+{
+    "name": "ghermans/krayin-msgraph-mail",
+    "description": "A Krayin CRM package for interacting with Microsoft Graph Mail.",
+    "type": "library",
+    "keywords": ["krayin", "microsoft graph", "mail"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ghermans\\MicrosoftGraphMail\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ghermans\\MicrosoftGraphMail\\MicrosoftGraphMailServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
