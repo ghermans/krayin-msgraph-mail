@@ -4,7 +4,7 @@
     <h2 align="center">Microsoft Graph Mail Integration</h2>    
 </p
 
-This Kraying CRM package provides a example on how to use the Microsoft Graph API for accessing mail-related data.
+This Krayin CRM package provides a example on how to use the Microsoft Graph API for accessing mail-related data.
 
 ## Changelog
 
