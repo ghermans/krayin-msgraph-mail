@@ -1,7 +1,7 @@
 
 <p align="center">
     <img src="https://bagisto.com/wp-content/uploads/2021/06/bagisto-logo.png" alt="Krayin CRM">
-    <h2 align="center">Microsoft Graph Mail Intergration</h2>    
+    <h2 align="center">Microsoft Graph Mail Integration</h2>    
 </p
 
 This Kraying CRM package provides a example on how to use the Microsoft Graph API for accessing mail-related data.
